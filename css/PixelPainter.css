@@ -2,19 +2,41 @@ body {
   background-color: lavender;
 }
 
+#swatch {
+  border: 1px solid purple;
+  position: relative;
+  height: 100px;
+  width: 100px;
+}
+
+#grid {
+  border: 1px solid red;
+  height: auto;
+  width: 620px;
+}
+
 #container {
-  border: 1px solid black;
+  /* border: 1px solid black;
   position: relative;
   border: 2px solid black;
   top: 100px;
   height: 600px;
   width: 600px;
   margin: auto;
-  padding: 0;
+  padding: 0; */
 
 }
 
-/* #gridBox {
-  border: 1px solid red;
-} */
 
+.row {
+  border: 1px solid green;
+  /* height: 15px; */
+  /* width: auto; */
+}
+
+.cell {
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  border: 1px solid black;
+}
