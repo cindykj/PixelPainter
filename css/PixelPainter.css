@@ -17,8 +17,9 @@ body {
 }
 
 #container {
-  /* border: 1px solid black;
-  position: relative;
+  border: 1px solid black;
+  overflow: auto;
+  /* position: relative;
   border: 2px solid black;
   top: 100px;
   height: 600px;
