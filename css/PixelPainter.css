@@ -10,9 +10,10 @@ body {
 }
 
 #grid {
-  border: 1px solid red;
+  border: 1px solid rgb(0, 153, 255);
   height: auto;
   width: 620px;
+  /* overflow: auto;   */
 }
 
 #container {
@@ -39,4 +40,15 @@ body {
   height: 10px;
   width: 10px;
   border: 1px solid black;
+  /* float: left; */
+  /* background-color: white; */
+}
+
+.paintCell {
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  border: 1px solid black;
+  /* float: left; */
+  /* background-color: white; */
 }
