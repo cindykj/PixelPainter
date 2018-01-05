@@ -3,14 +3,14 @@ body {
 }
 
 #swatch {
-  border: 1px solid purple;
+  /* border: 1px solid purple; */
   position: relative;
   height: 150px;
   width: 150px;
 }
 
 #grid {
-  border: 1px solid rgb(0, 153, 255);
+  /* border: 1px solid rgb(0, 153, 255); */
   height: auto;
   width: 620px;
   /* overflow: auto;   */
@@ -30,7 +30,7 @@ body {
 
 
 .row {
-  border: 1px solid green;
+  /* border: 1px solid green; */
   /* height: 15px; */
   /* width: auto; */
 }
